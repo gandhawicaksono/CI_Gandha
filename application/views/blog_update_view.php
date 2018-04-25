@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>M. Imron Rozikin</title>
+  <title>Gandha Wicaksono</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-primary text-dark mb-4">
-      <a class="navbar-brand" href="#">Imron's</a>
+      <a class="navbar-brand" href="#">Gandha's</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,7 +31,8 @@
         </ul>
       </div>
     </nav>
- <main role="main" class="container">
+    
+    <main role="main" class="container">
 <main role="main" class="container"> 
     <div class="row"> 
       <div class="col"> 

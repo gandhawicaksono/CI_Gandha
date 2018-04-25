@@ -49,7 +49,7 @@ class Blog extends CI_Controller {
         redirect('Blog');  
       } 
     }
-     }
+ }
        public function byId($id){
        $data['records'] = $this->Blog_model->getOne($id); 
          $this->load->view('blog_view',$data); 
