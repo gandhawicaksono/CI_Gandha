@@ -21,8 +21,8 @@ class Page_Controller extends CI_Controller
 
 	public function contact()
 	{
-		$data['nohp'] = '089688928805';
-		$data['email'] = 'gandhawicaksono3@gmail.com';
+		$data['nohp'] = '089679104044';
+		$data['email'] = 'rozikinimron@gmail.com';
 		$this->load->view('contact', $data);
 	}
 
@@ -30,7 +30,7 @@ class Page_Controller extends CI_Controller
 	{
 		if($param == null)
 		{
-			$param = "<b>Paramater url belum dimasukan</b><a href= ".base_url('News/gandha').">Klik Berikut Untuk Memberi Parameter</a>";
+			$param = "<b>Paramater url belum dimasukan</b><a href= ".base_url('News/imron').">Klik Berikut Untuk Memberi Parameter</a>";
 		}
 
 		$data['nama'] = $param;
