@@ -29,5 +29,19 @@ class Blog_model extends CI_Model {
         $query = $this->db->query("select * from Blog where id='$id'");
       return $query->result_array();
     }
+      public function get_all_artikel($limit = FALSE, $offset = FALSE)
+    {
+        if($limit){
+            $this->db->limit($limit,$offset);
+        }
+        $this->db->order_by('blog.date','desc');
+      }
+     
+    public function get_total()
+    {
+        return $this->db->count_all('blog');
+         $query = $this->db->get('blog');
+        return $query->result_array();
+    }
   }
 ?>
